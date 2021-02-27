@@ -1,0 +1,84 @@
+/*green*/
+ .highlight-color--green, ::selection {
+   padding: 1px 20px;
+   line-height: 1.5em;
+   border-radius: 20px 20px 20px 0px;
+   background-color: #80cbc4}
+/*red*/
+ .highlight-color--red, ::selection {
+  padding: 1px 20px;
+   line-height: 1.5em;
+   border-radius: 20px 20px 20px 20px;}
+/*blue*/
+ .highlight-color--blue, ::selection {
+ padding: 1px 20px;
+   line-height: 1.5em;
+   border-radius: 20px 20px 20px 0px;
+   background-color: #90caf9
+   }
+/*yellow*/
+ .highlight-color--yellow, ::selection {
+   padding: 3px 10px 3px 10px;
+   line-height: 1.5em;
+   border-radius: 20px 20px 20px 0px;
+   }
+/*purple*/
+ .highlight-color--purple, ::selection {
+ padding: 1px 20px;
+   line-height: 1em.5;
+   border-radius: 20px 20px 20px 0px;
+   }
+/*orange*/
+ .highlight-color--orange, ::selection {
+ padding: 1px 20px;
+   line-height: 1.5em;
+   border-radius: 20px 20px 20px 0px;
+} 
+
+body {
+font-family: "Montserrat";
+}
+
+
+ 
+.rem-indented-indicator {
+font-size: 0px;
+color: #00000000
+}
+.rem-indented-indicator::before{
+ content: '';
+ color: #000;
+ margin: 0px 0px -10px 0px;
+ vertical-align: 'bottom';
+ font-size: 8px;
+ }
+ 
+ /* Portals */
+#hierarchy-editor .portal-tree-node {
+border-color: #000;
+border-width: 2px;
+border-top-width: 2px;
+margin: 5px;
+padding: 10px;
+border-radius: 16px;
+border-top-width: 2px;
+border-top-style: solid;
+border-top-color: rgb(0, 0, 0);
+border-bottom-width: 2px;
+border-bottom-style: solid;
+border-bottom-color: rgb(0, 0, 0);
+border-color: white;
+box-shadow: inset -2px 2px 8px 2px rgba(0, 0, 0, 0.08), inset 0px -6px 15px -2px rgba(0, 0, 0, 0.1);
+}
+.portal-rem {
+display:none;
+}
+
+.hierarchy-editor__after-portal {
+display: none;
+}
+
+/* Title */
+.document-title {
+text-align: center;
+}

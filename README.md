@@ -1,5 +1,6 @@
 # remnote-theme
-![image](https://user-images.githubusercontent.com/22642772/109391414-37a98f80-7917-11eb-9c00-db4f1d0a5d59.png)
+![image](https://user-images.githubusercontent.com/22642772/109395867-ea391c80-792e-11eb-8235-9b638281412e.png)
+
 
 ## How to use?
 Copy & past the following code to a /code element in your Custom CSS power-Up:

@@ -1,5 +1,5 @@
 # remnote-theme
-![image](https://user-images.githubusercontent.com/22642772/109395867-ea391c80-792e-11eb-8235-9b638281412e.png)
+![image](https://user-images.githubusercontent.com/22642772/109396177-9cbdaf00-7930-11eb-9f6b-22742a690615.png)
 
 
 ## How to use?

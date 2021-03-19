@@ -117,3 +117,60 @@ body {
 	padding-top: 10px;
 } 
  
+/* Bullet Points */
+.rem-container--concept-rem-type .rem-bullet__container.rem-bullet__container-undefined :hover :not(document), .rem-container--concept-rem-type .rem-bullet__container.rem-bullet__container-undefined .rem-bullet{
+  background: green;
+  width: 16px;
+  height: 12px;
+  position: relative;
+  top: 1px;
+  left: 2px;
+  -webkit-mask-image: url("https://justtolook.github.io/remnote-theme/concept.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+}
+.rem-container--descriptor-rem-type .rem-bullet__container.rem-bullet__container-undefined :hover :not(document), .rem-container--descriptor-rem-type .rem-bullet__container.rem-bullet__container-undefined .rem-bullet{
+  background: blue;
+  width: 16px;
+  height: 12px;
+  position: relative;
+  top: 1px;
+  left: 1px;
+  -webkit-mask-image: url("https://justtolook.github.io/remnote-theme/descriptor.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;}
+
+.rem-container--question-rem-type .rem-bullet__container.rem-bullet__container-undefined :hover :not(document), .rem-container--question-rem-type .rem-bullet__container.rem-bullet__container-undefined .rem-bullet{
+  background: purple;
+  width: 16px;
+  height: 12px;
+  position: relative;
+  top: 1px;
+  left: 1px;
+  -webkit-mask-image: url("https://justtolook.github.io/remnote-theme/question.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+}
+
+.rem-bullet {
+border-radius: 4px;
+}
+
+.rem-container--concept-rem-type .rem-bullet__container.rem-bullet__container-undefined:hover, .rem-container--not-in-article .rem-bullet__container:hover .rem-bullet--hidden-children {
+border-radius: 4px;
+}
+
+.rem-container--not-in-article .rem-bullet__container:hover .rem-bullet--all-children-visible, .rem-container--not-in-article .rem-bullet__container .rem-bullet--hidden-children{
+border: 0;
+}
+
+.rem-container--not-in-article .rem-bullet__container:hover .rem-bullet--all-children-visible{
+transition: transform .2s ease; /* Animation */
+transform: scale(1.4);
+}
+
+.rem-container--not-in-article .rem-bullet__container:hover .rem-bullet--hidden-children {
+border: 0;
+transition: transform .2s ease; /* Animation */
+transform: scale(1.4);
+}
